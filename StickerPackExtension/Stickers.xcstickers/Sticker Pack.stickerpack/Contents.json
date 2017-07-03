@@ -1,4 +1,72 @@
 {
+  "stickers" : [
+    {
+      "filename" : "kastrulka.sticker"
+    },
+    {
+      "filename" : "strashny.sticker"
+    },
+    {
+      "filename" : "pogulyat.sticker"
+    },
+    {
+      "filename" : "sloni.sticker"
+    },
+    {
+      "filename" : "letuchka.sticker"
+    },
+    {
+      "filename" : "misha.sticker"
+    },
+    {
+      "filename" : "pechalka.sticker"
+    },
+    {
+      "filename" : "zaiki.sticker"
+    },
+    {
+      "filename" : "kluchik.sticker"
+    },
+    {
+      "filename" : "nochnie.sticker"
+    },
+    {
+      "filename" : "burbuduks.sticker"
+    },
+    {
+      "filename" : "korol.sticker"
+    },
+    {
+      "filename" : "spasatel.sticker"
+    },
+    {
+      "filename" : "osen.sticker"
+    },
+    {
+      "filename" : "privetik.sticker"
+    },
+    {
+      "filename" : "koryagik.sticker"
+    },
+    {
+      "filename" : "drovoseki.sticker"
+    },
+    {
+      "filename" : "voprosiki.sticker"
+    },
+    {
+      "filename" : "babu.sticker"
+    },
+    {
+      "filename" : "date.sticker"
+    },
+    {
+      "filename" : "mmmm.sticker"
+    },
+    {
+      "filename" : "thecouple.sticker"
+    }
+  ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
