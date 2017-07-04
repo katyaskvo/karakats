@@ -106,12 +106,12 @@
 				TargetAttributes = {
 					00930A291F0431B200BE6B63 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 3NYRYBXD9K;
+						DevelopmentTeam = 7Y5A985M94;
 						ProvisioningStyle = Automatic;
 					};
 					00930A2D1F0431B200BE6B63 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 3NYRYBXD9K;
+						DevelopmentTeam = 7Y5A985M94;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -256,10 +256,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = 3NYRYBXD9K;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7Y5A985M94;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ekaterinazdorov.karakats.StickerPackExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katyaskvo.karakats.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -268,10 +272,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = 3NYRYBXD9K;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7Y5A985M94;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ekaterinazdorov.karakats.StickerPackExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katyaskvo.karakats.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -280,9 +288,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = 3NYRYBXD9K;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7Y5A985M94;
 				INFOPLIST_FILE = karakats/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ekaterinazdorov.karakats;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katyaskvo.karakats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -291,9 +300,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = 3NYRYBXD9K;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7Y5A985M94;
 				INFOPLIST_FILE = karakats/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ekaterinazdorov.karakats;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katyaskvo.karakats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -317,6 +327,7 @@
 				00930A391F0431B200BE6B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00930A3B1F0431B200BE6B63 /* Build configuration list for PBXNativeTarget "karakats" */ = {
 			isa = XCConfigurationList;
@@ -325,6 +336,7 @@
 				00930A3D1F0431B200BE6B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
